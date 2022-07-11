@@ -57,6 +57,7 @@ export const build = async () => {
   const out = (await viteBuild(config)) as TempType
 }
 
+// Uncomment this to see that building works
 // build().then(()=>{
 //     console.log('done')
 // })
